@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  width: 800px;
+  height: 450px;
+  position: relative;
+  background-color: black;
+  left: 80px;
+  top: 60px;
+}
+
+img {
+  height: 500px;
+  width: 300px;
+  position: relative;
+  bottom: 30px;
+  background-color: #878787;
+}
+
+.person-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.name {
+  color: white;
+  position: absolute;
+  bottom: 90px;
+  left: 80px;
+  font-size: 40px;
+}
+
+.role {
+  position: absolute;
+}
+
+.role1 {
+  color: #00c483;
+  position: absolute;
+  bottom: 120px;
+  left: 110px;
+  font-size: 25px;
+}
+
+.about-c {
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  background-color: #333333;
+  left: 300px;
+  top: 0;
+}
+
+.about {
+  position: absolute;
+  left: 30px;
+  color: white;
+  font-size: 50px;
+}
+
+.intro {
+  position: absolute;
+  width: 470px;
+  height: 300px;
+  background-color: #333333;
+  left: 30px;
+  bottom: 60px;
+}
+
+.intro-info {
+  color: white;
+}
+
+.bio {
+  color: white;
+  font-size: 20px;
+}
